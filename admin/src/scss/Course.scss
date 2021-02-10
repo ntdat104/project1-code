@@ -1,0 +1,65 @@
+.course {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+    }
+
+    form {
+        margin-bottom: 1.5rem;
+
+        input {
+            margin-right: 1rem;
+        }
+
+        button {
+            padding: 0 1rem;
+            cursor: pointer;
+        }
+
+        select {
+            margin-right: 1rem;
+        }
+    }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+
+    table th {
+        border: 1px solid black;
+        padding: 0.8rem;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    table td {
+        border: 1px solid black;
+        padding: 0.8rem;
+        font-size: 1.4rem;
+    }
+
+    table td button {
+        padding: 0 1rem;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    table td button:last-of-type {
+        margin-right: 0;
+    }
+
+    table th button {
+        padding: 0 1rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,34 @@
+.class_info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid black;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        padding: 2rem;
+
+        li {
+            margin-bottom: 1rem;
+
+            h2 {
+                font-weight: bold;
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 2rem;
+                color: #424949;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.edit_profile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+        border-bottom: 1px solid black;
+    }
+
+    form {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0 2rem;
+    }
+
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form div label {
+        font-size: 2rem;
+    }
+
+    form div input {
+        margin-top: 0.5rem;
+        font-size: 2rem;
+        border-radius: 0.3rem;
+    }
+
+    form div select {
+        margin-top: 0.5rem;
+        font-size: 2rem;
+        border-radius: 0.3rem;
+    }
+
+    form button {
+        font-size: 2rem;
+        cursor: pointer;
+        border-radius: 0.3rem;
+    }
+}

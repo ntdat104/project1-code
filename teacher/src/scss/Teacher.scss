@@ -1,0 +1,25 @@
+.teacher {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.btn {
+    display: flex;
+
+    button {
+        outline: none;
+        border: none;
+        background: none;
+        border: 1px solid black;
+        border-right: none;
+        flex-grow: 1;
+        padding: 1rem 0;
+        cursor: pointer;
+    }
+}
